@@ -105,7 +105,10 @@ h3 {
 	padding-top:23;
 	padding-bottom:25;
 	padding-left:20;
-	padding-right:25;
+	padding-right:25;padding-top:18;
+	padding-bottom:18;
+	padding-left:48;
+	padding-right:48;
 	background-image:url(images/menu_crn_efct.jpg);
 	background-repeat:no-repeat;
 	background-position:right bottom;
@@ -119,10 +122,10 @@ h3 {
 	text-align:center;
 	list-style:none; 
 	float:left;
-	padding-top:23;
-	padding-bottom:25;
-	padding-left:20;
-	padding-right:25;
+	padding-top:18;
+	padding-bottom:18;
+	padding-left:48;
+	padding-right:48;
 	background-image:none;
 	background-color:#800507;
 	margin-left:0;
