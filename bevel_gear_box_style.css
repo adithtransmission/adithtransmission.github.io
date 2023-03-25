@@ -87,46 +87,94 @@ h3 {
 	
 	
 }
-#menu ul li {
+nav {
+	background-color: #931E04;
+}
+ 
+nav ul {
+	padding:0
+        margin: 0;
+	list-style: none;
+	position: relative;
+	}
+
+nav ul li {
+	display:inline-block;
 	list-style:none;
 	float:left;
 	background-color:#931E04;
 	padding:0;
 	margin:0;
-	
-}
-#menu ul li a{
+	}
+ nav ul li a{
 	color:#ffffff;
 	font-size:12px;
 	font-weight:bold;
 	text-align:center;
 	list-style:none; 
 	float:left;
-	ppadding-top:18;
-	padding-bottom:18;
+	padding-top:1;
+	padding-bottom:1;
 	padding-left:48;
 	padding-right:48;
-	background-image:url(images/menu_crn_efct.jpg);
-	background-repeat:no-repeat;
 	background-position:right bottom;
 	margin-left:0;
-	
+	background-color:#931E04;
+        
 }
-#menu ul li a:hover{
+
+nav a {
+	display:block;
+	padding:0
+	color:#ffffff;
+	font-size:12px;
+	font-weight:bold;
+	text-align:left;
+	list-style:none; 
+	line-height: 60px;
+	text-decoration:none;
+}
+ 
+nav a:hover { 
 	color:#fff;
 	font-size:12px;
 	font-weight:bold;
 	text-align:center;
 	list-style:none; 
 	float:left;
-	padding-top:18;
-	padding-bottom:18;
+	padding-top:1;
+	padding-bottom:1;
 	padding-left:48;
 	padding-right:48;
 	background-image:none;
-	background-color:#800507;
-	margin-left:0;
+	background-color:#fff;
+	margin:0;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+	width:375px;
+	float:left;
+	display:list-item;
+	position: relative;
+}
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+	position: relative;
+	top: 60px; 
+	left:170px;
+} 
+
+
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; /* the height of the main nav */
+}
 	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
 }
 .footer ul li {
 	margin:0;
